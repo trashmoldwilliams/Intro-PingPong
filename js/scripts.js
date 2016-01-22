@@ -1,11 +1,11 @@
-var pingPong = function(inputNumber) {
-  if (inputNumber % 3 === 0 && inputNumber % 5 === 0) {
-    return "pingpong"
-  } else if (inputNumber % 3 === 0) {
-    return "ping";
-  } else if (inputNumber % 5 === 0) {
-    return "pong";
+var pingPong = function(currentInputNumber) {
+  if (currentInputNumber % 3 === 0 && currentInputNumber % 5 === 0) {
+    return "<li>'pingpong'</li>"
+  } else if (currentInputNumber % 3 === 0) {
+    return "<li>'ping'</li>";
+  } else if (currentInputNumber % 5 === 0) {
+    return "<li>'pong'</li>";
   } else {
-    return inputNumber;
+    return "<li>" + currentInputNumber + "</li>";
   }
 }

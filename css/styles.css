@@ -1,0 +1,29 @@
+body {
+  background-color: #ffffcc;
+}
+
+#footer {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid grey;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#pageHeader {
+  text-align: center;
+  background-color: #B3E7FA;
+}
+
+#pingPongContainer {
+  margin-left: 70px;
+}
+
+#rules {
+  line-height: 25px;
+}
+
+#totalInputNumber {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

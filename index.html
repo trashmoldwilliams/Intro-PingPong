@@ -8,9 +8,27 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1>Ping Pong!</h1>
-    <input id=totalInputNumber type="number"></input>
-    <button id="submit">Submit!</button>
-    <ul id="pingPongList"></ul>
+    <div id="pageHeader"class="jumbotron">
+      <h1>Ping Pong!</h1>
+    </div>
+    <div id="footer">
+      <span>
+        (c) Will Johnson |
+        <a href="https://github.com/trashmoldwilliams" target="_blank">trashmoldwilliams</a> 
+        2016
+      </span>
+    </div>
+    <div id=pingPongContainer>
+      <h2>Rules:</h2>
+      <p>Enter a number, and Ping Pong will count it up from 1 with the following exceptions.</p>
+      <ol id="rules">
+        <li>Numbers divisible by 3 become "ping"</li>
+        <li>Numbers divisible by 3 become "pong"</li>
+        <li>Numbers divisible by 3 become "pingpong"</li>
+      </ol>
+      <input id=totalInputNumber type="number"></input>
+      <button id="submit">Ping Pong!</button>
+      <ul id="pingPongList"></ul>
+    </div>
   </body>
 </html>

@@ -1,9 +1,10 @@
 $(document).ready(function() {
-  $("form#pingPong").submit(function(event) {
-    var totalInputNumber = parseInt($("input#totalInputNumber").val());
+  $("button#submit").click(function(event) {
+    var totalInputNumber =  parseInt($("input#totalInputNumber").val());
     for (var i = 1; i <= totalInputNumber; i++) {
       $("ul#pingPongList").append("<li>" + pingPong(totalInputNumber + "</li>"));
     }
+    event.preventDefault();
   });
 });
 

@@ -1,6 +1,6 @@
 #Ping Pong
 
-Ping Pong is a page that runs number, input by the user, and counts up to that number by 0. This sequence is printed out in a list, but numbers divisible by 3 become "ping", numbers divisible by 5 become "pong", and numbers divisible by both 3 and 5 become "pingpong".
+Ping Pong is a page that runs a number, input by the user, and counts up to that number by 0. This sequence is printed out in a list, but numbers divisible by 3 become "ping", numbers divisible by 5 become "pong", and numbers divisible by both 3 and 5 become "pingpong".
 
 ###Instructions
 To access this site, go to: https://trashmoldwilliams.github.io/pingPong

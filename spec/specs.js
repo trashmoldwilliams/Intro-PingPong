@@ -8,4 +8,7 @@ describe('pingPong', function() {
   it("outputs 'pingpong' for numbers divisible by both 3 and 5", function () {
     expect(pingPong(15)).to.equal("pingpong")
   });
+  it("outputs inputNumber if no previous criteria is met", function () {
+    expect(pingPong(7)).to.equal(7)
+  });
 });

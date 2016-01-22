@@ -5,5 +5,7 @@ var pingPong = function(inputNumber) {
     return "ping";
   } else if (inputNumber % 5 === 0) {
     return "pong";
+  } else {
+    return inputNumber;
   }
 }

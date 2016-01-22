@@ -12,3 +12,12 @@ describe('pingPong', function() {
     expect(pingPong(7)).to.equal(7)
   });
 });
+
+describe('invalidInputCheck', function () {
+  it("will output 'negative' if input is 0", function () {
+    expect(invalidInputCheck(0)).to.equal("negative")
+  });
+  it("will output 'negative' if input is a negative number", function () {
+    expect(invalidInputCheck(-5)).to.equal("negative")
+  });
+})

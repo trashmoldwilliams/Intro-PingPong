@@ -1,3 +1,9 @@
+$(document).ready(function() {
+  for (var i = 1; i <= totalInputNumber; i++) {
+    $("ul#pingPongList").append(pingPong(totalInputNumber));
+  }
+)};
+
 var pingPong = function(currentInputNumber) {
   if (currentInputNumber % 3 === 0 && currentInputNumber % 5 === 0) {
     return "<li>'pingpong'</li>"

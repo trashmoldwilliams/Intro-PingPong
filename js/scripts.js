@@ -2,7 +2,7 @@ $(document).ready(function() {
   $("button#submit").click(function(event) {
     var totalInputNumber =  parseInt($("input#totalInputNumber").val());
     for (var i = 1; i <= totalInputNumber; i++) {
-      $("ul#pingPongList").append("<li>" + pingPong(totalInputNumber + "</li>"));
+      $("ul#pingPongList").append("<li>" + pingPong(i) + "</li>");
     }
     event.preventDefault();
   });

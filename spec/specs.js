@@ -20,4 +20,7 @@ describe('invalidInputCheck', function () {
   it("will output 'negative' if input is a negative number", function () {
     expect(invalidInputCheck(-5)).to.equal("negative")
   });
+  it("will output 'overload' if input is 100000 or higher", function () {
+    expect(invalidInputCheck(-5)).to.equal("negative")
+  });
 })
